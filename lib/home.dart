@@ -65,7 +65,7 @@ class HomePageState extends State<HomePage> {
             return AlertDialog(
               content: Container(
                 width: width,             //Width of Container()  Size: 300
-                height: height * 0.72,   //Height of Container() Size: 410
+                height: height * 0.72,    //Height of Container() Size: 410
                 child: Column(
                   children: [
                     Row(

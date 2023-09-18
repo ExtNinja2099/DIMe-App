@@ -48,7 +48,7 @@ class ScanPageState extends State<ScanPage> {
                           itemBuilder: (context, index) {   //List builder
                             return identityErrorCard(context, cardScrollWidth, idCardHeight,
                                 Icons.no_accounts_outlined, 100, Colors.red, "No Identity",
-                                fontHeight * 0.0597);      //Size: 20
+                                fontHeight * 0.0597);       //Size: 20
                           }
                         ),
                       )
@@ -105,19 +105,19 @@ class ScanPageState extends State<ScanPage> {
                                               "Age: " + identity.age.toString(),
                                               style: TextStyle(color: Colors.black, fontSize: fontHeight * 0.072),   //Size: 24
                                             ),
-                                            SizedBox(width: fontHeight * 0.015),   //Size: 5
+                                            SizedBox(width: fontHeight * 0.015),    //Size: 5
                                             //ID verification icon
                                             Icon(identity.isVerified ? Icons.verified_outlined : Icons.pending_outlined, size: fontHeight * 0.072,
                                               color: identity.isVerified ? Colors.green : Colors.blue
                                             ),    //Size: 24
                                           ]
                                         ),
-                                        SizedBox(height: fontHeight * 0.0597),   //Size: 20
+                                        SizedBox(height: fontHeight * 0.0597),    //Size: 20
                                         //Generated QR code image
                                         Icon(Icons.qr_code_2_outlined, size: fontHeight * 0.388),    //Size: 130
-                                        SizedBox(height: fontHeight * 0.0597),   //Size: 20
+                                        SizedBox(height: fontHeight * 0.0597),    //Size: 20
                                         Divider(height: 1, color: Colors.grey),   //Line divider
-                                        SizedBox(height: fontHeight * 0.0597),   //Size: 20
+                                        SizedBox(height: fontHeight * 0.0597),    //Size: 20
                                         SingleChildScrollView(
                                           padding: EdgeInsets.all(8),
                                           child: Column(

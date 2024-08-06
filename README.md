@@ -1,6 +1,6 @@
 ## DIMe App
 This is my Personal Project to create prototype application UI for Digital Identity in Flutter
-<br>MSc title: **User-Centred Design for Digital Identity: Addressing User Privacy and Ethical Concerns**
+<br>project title: **User-Centred Design for Digital Identity: Addressing User Privacy and Ethical Concerns**
 
 ## **Prerequisites**
 
